@@ -10,6 +10,7 @@ pipeline {
     stage('stage2') {
       steps {
         echo 'hi seeniya'
+        sh 'echo Another Placeholder'
       }
     }
 
