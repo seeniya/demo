@@ -17,6 +17,7 @@ pipeline {
     stage('stage3') {
       steps {
         sh 'hostname'
+        sh 'sleep 5'
       }
     }
 
