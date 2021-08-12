@@ -4,7 +4,6 @@ pipeline {
     stage('buzz build') {
       agent any
       steps {
-        echo 'hi world'
         sh './jenkins/build.sh'
       }
     }
