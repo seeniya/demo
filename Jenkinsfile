@@ -9,14 +9,12 @@ pipeline {
 
     stage('stage2') {
       steps {
-        echo 'hi seeniya'
         sh 'echo Another Placeholder'
       }
     }
 
     stage('stage3') {
       steps {
-        sh 'hostname'
         sh 'sleep 5'
       }
     }
