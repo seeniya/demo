@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('buzz build') {
       steps {
-        sh './jenkins/buixxxxld.sh'
+        sh './jenkins/buixxxxxld.sh'
       }
     }
 
