@@ -7,5 +7,11 @@ pipeline {
       }
     }
 
+    stage('buzz test') {
+      steps {
+        echo 'buzz bees buzz'
+      }
+    }
+
   }
 }
