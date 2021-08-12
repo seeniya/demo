@@ -7,7 +7,7 @@ pipeline {
       }
     }
 
-    stage('buzz test') {
+    stage('buzz test1') {
       steps {
         echo 'buzz bees buzz'
       }
